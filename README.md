@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/DmitrySazonov/esp32_radio_remote/blob/main/images/image1.jpg?raw=true)
 
-Small ESP32-based remote for controlling a phone radio/streaming app over HTTP.
+Small ESP32-based remote for controlling a phone radio/streaming app [Flutter radio](https://github.com/DmitrySazonov/flutter_radio) over HTTP.
 It shows station and “now playing” on a 128×64 SSD1306 OLED, has an encoder for volume and play/pause, dedicated Prev/Next buttons, night dimming, and a Screen Off idle timer. A built-in web page lets you configure Wi-Fi and behavior without reflashing.
 
 ## Repository Layout
