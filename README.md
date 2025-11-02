@@ -1,5 +1,7 @@
 # ESP32 Radio Remote
 
+![alt text](https://github.com/DmitrySazonov/esp32_radio_remote/blob/main/images/image1.jpg?raw=true)
+
 Small ESP32-based remote for controlling a phone radio/streaming app over HTTP.
 It shows station and “now playing” on a 128×64 SSD1306 OLED, has an encoder for volume and play/pause, dedicated Prev/Next buttons, night dimming, and a Screen Off idle timer. A built-in web page lets you configure Wi-Fi and behavior without reflashing.
 
@@ -33,6 +35,8 @@ It shows station and “now playing” on a 128×64 SSD1306 OLED, has an encoder
 - Display: SSD1306 128×64 (I²C, address 0x3C)
 - Encoder: 2-bit incremental with push button
 - Buttons: two momentary buttons for Prev and Next
+
+![alt text](https://github.com/DmitrySazonov/esp32_radio_remote/blob/main/fritzing/esp32_radio_remote.png?raw=true)
 
 See fritzing/ for exact wiring (.fzz) and a PNG preview.
 STL files for the enclosure live in stl/.
@@ -89,6 +93,8 @@ STL files for the enclosure live in stl/.
 Tip: In STA mode you can also try http://radio-remote.local/ or use the device IP (triple-click the encoder to show IP/SSID on OLED).
 
 ## Web UI — Settings Explained
+
+![alt text](https://github.com/DmitrySazonov/esp32_radio_remote/blob/main/images/esp32_web_ui.png?raw=true)
 
 Open the device IP in a browser (or http://radio-remote.local/).
 
